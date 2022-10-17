@@ -71,7 +71,7 @@
     color: var(--color-light);
 }
 
-/* RESSPONSIVE BEHAVIOUR  (for medium devices) */
+/* RESPONSIVE BEHAVIOUR  (for medium devices) */
 @media screen and (max-width: 1024px){
     .about__container{
         grid-template-columns: 1fr;
@@ -87,7 +87,7 @@
     }
 }
 
-/* RESSPONSIVE BEHAVIOUR  (for small devices) */
+/* RESPONSIVE BEHAVIOUR  (for small devices) */
 @media screen and (max-width: 600px){
     .about__me{
         width: 65%;
