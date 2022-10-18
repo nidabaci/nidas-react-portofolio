@@ -14,8 +14,10 @@ const Portofolio = () => {
             <img src={IMG1} alt="Bankist App" />
           </div>
           <h3>This is a portofolio item title</h3>
-          <a href="#" className='btn'>Github</a>
-          <a href="#" className='btn btn-primary' target='__blank'>Live Demo</a>
+          <div className='portofolio__item-cta'>
+            <a href="#" className='btn'>Github</a>
+            <a href="#" className='btn btn-primary' target='__blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className='portofolio__item' >
@@ -23,8 +25,10 @@ const Portofolio = () => {
             <img src={IMG1} alt="Bankist App" />
           </div>
           <h3>This is a portofolio item title</h3>
-          <a href="#" className='btn'>Github</a>
-          <a href="#" className='btn btn-primary' target='__blank'>Live Demo</a>
+          <div className='portofolio__item-cta'>
+            <a href="#" className='btn'>Github</a>
+            <a href="#" className='btn btn-primary' target='__blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className='portofolio__item' >
@@ -32,8 +36,10 @@ const Portofolio = () => {
             <img src={IMG1} alt="Bankist App" />
           </div>
           <h3>This is a portofolio item title</h3>
-          <a href="#" className='btn'>Github</a>
-          <a href="#" className='btn btn-primary' target='__blank'>Live Demo</a>
+          <div className='portofolio__item-cta'>
+            <a href="#" className='btn'>Github</a>
+            <a href="#" className='btn btn-primary' target='__blank'>Live Demo</a>
+          </div>
         </article>
 
       </div>
