@@ -16,40 +16,42 @@ const Experience = () => {
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>HTML5 AND CSS3</h4>
-              <small className='text-light'> Intermediate</small>
+               <small className='text-light'> Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
-                 <h4>REACT</h4>
-              <small className='text-light'>Intermediate</small>
+               <h4>REACT</h4>
+               <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
-                  <h4>JAVASCRIPT</h4>
-              <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <h4>WORDPRESS</h4>
-              <small className='text-light'>Intermediate</small>
-            </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>CSS3</h4>
-              <small className='text-light'>Intermediate</small>
+               <h4>JAVASCRIPT</h4>
+               <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>BOOTSTRAP</h4>
-              <small className='text-light'>Intermediate</small>
+                <h4>WORDPRESS</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsFillPatchCheckFill className='experience__details-icon' />
+              <div>
+               <h4>CSS3</h4>
+               <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsFillPatchCheckFill className='experience__details-icon' />
+              <div>
+               <h4>BOOTSTRAP</h4>
+               <small className='text-light'>Intermediate</small>
               </div>
             </article>
           </div>
