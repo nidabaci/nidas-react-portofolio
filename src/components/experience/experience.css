@@ -64,7 +64,14 @@
     }
      
     .experience__container > div {
-        width: 100%;
         padding: 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .experience__details {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
     }
 }
