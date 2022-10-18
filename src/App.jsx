@@ -8,10 +8,12 @@ import Services from './components/services/Services'
 import Testimonial from './components/testimonial/Testimonial'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import Favicon from 'react-favicon'
 
 export const App = () => {
   return (
     <>
+    <Favicon url="https://cdn-icons-png.flaticon.com/512/3498/3498215.png"></Favicon>
     <Header />
     <Nav />
     <About />
