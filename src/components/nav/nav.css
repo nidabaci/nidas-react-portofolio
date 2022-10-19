@@ -31,3 +31,12 @@ nav a.active {
     background: var(--color-bg);
     color: var(--color-white);
 }
+
+@media screen and (max-width: 600px){
+    nav {
+        /* display: flex;*/
+        flex-wrap: wrap; 
+        width: 80%;
+        gap: 0.5rem;
+    }
+}
