@@ -47,7 +47,7 @@
         grid-template-columns: 1fr;
     }
     .experience__container > div {
-        width: 80%;
+        /* width: 90%; */
         padding: 2rem;
         margin: 0 auto;
     }
@@ -60,6 +60,7 @@
 @media screen and (max-width: 600px){
     .experience__container {
         gap: 1rem;
+        display: grid;
 
     }
      
