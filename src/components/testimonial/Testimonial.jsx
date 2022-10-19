@@ -33,7 +33,7 @@ const data =[
 
 const Testimonial = () => {
   return (
-    <section>
+    <section id='testimonial'>
       <h5>Review From People</h5>
       <h2>Testimonials</h2>
 
