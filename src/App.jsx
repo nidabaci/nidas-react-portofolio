@@ -20,7 +20,7 @@ export const App = () => {
     <Experience />
     <Portofolio />
     <Services />
-    {/* <Testimonial /> */}
+    <Testimonial />
     <Contact />
     <Footer />
     </>
