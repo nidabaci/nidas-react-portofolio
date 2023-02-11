@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css";
 import { MdOutlineMail } from "react-icons/md";
-import { BsLinkedin, BsTwitter } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs"
 import { BsWhatsapp } from "react-icons/bs";
 
 const contact = () => {
