@@ -10,7 +10,7 @@ const Header = () => {
       <div className="container header__container">
         {/* BEM METODOLOGY OF NAMING CLASSES */}
         <h5>Hello I am</h5>
-        <h1>Jonida Baci</h1>
+        <h1>Jonida Baçi</h1>
         <h5 className="text-light">Frontend Developer</h5>
         <CTA/>
         <HeaderSocials/>
