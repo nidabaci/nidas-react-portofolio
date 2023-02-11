@@ -20,13 +20,13 @@ const About = () => {
             <div className="about__cards">
               <article className='about__card'>
                 <ImUsers className='about__icon'/>
-                <h5>Clients</h5>
-                <small>20</small>
+                <h5>Languages</h5>
+                <small>5+</small>
               </article>
               <article className='about__card'>
                 <BsAward className='about__icon'/>
                 <h5>Experience</h5>
-                <small>3+ Years</small>
+                <small>2+ Years</small>
               </article>
               <article className='about__card'>
                 <AiOutlineFolderOpen className='about__icon'/>
@@ -35,8 +35,7 @@ const About = () => {
               </article>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus enim ea perferendis praesentium provident in sed dicta? At temporibus libero dolorem doloremque consequatur, quasi error maxime provident animi! Quo, nesciunt!
-            </p>
+            I am a skilled developer with expertise in WordPress, HTML5, CSS3, and making cross-browser compatibile websites. I am proficient in React JS, Ionic, Kendo, and Prime Faces, and have a basic understanding of Next Js, Vue JS, Bootstrap, Python, C#, and Unity. I use Figma to create visually appealing and user-friendly web and mobile application interfaces.            </p>
             <a href="#contact" className='btn btn-primary'>Contact Me</a>
 
           </div>
