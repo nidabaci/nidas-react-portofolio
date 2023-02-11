@@ -22,8 +22,8 @@ const contact = () => {
           <article className='contact__option'>
             <BsTwitter className='contact__option-icon'/>
             <h4>Twitter</h4>
-            <h5>nidabaci514</h5>
-            <a href="https://twitter.com/NidaBaci514" target="__blank">My Twitter page</a>
+            <h5>nidabaci</h5>
+            <a href="https://twitter.com/nidabaci" target="__blank">My Twitter page</a>
           </article>
 
           <article className='contact__option'>
@@ -38,7 +38,6 @@ const contact = () => {
         {/* END OF CONTACT */}
 
         <form action="">
-          <p>-Not functional yet-</p>
           <input type="text" name="name" id="" placeholder='Your Full Name Goes Here' required />
           <input type="email" name="email" id="" placeholder='Your Email Goes Here' required />
           <textarea name="message" id="" cols="30" rows="10" placeholder='Tye Your Message Here...' required></textarea>

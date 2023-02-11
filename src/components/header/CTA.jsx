@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/Jonida_Baçi_-_Web_Developer.pdf'
+import CV from '../../assets/Jonida_Baçi-Web_DeveloperDec2022.pdf'
 
 function CTA() {
   return (
