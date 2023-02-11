@@ -8,12 +8,10 @@
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(
-     45deg,
-     transparent,
-     var(--color-primary),
-     transparent
-    );
+    background: linear-gradient(45deg,
+            transparent,
+            var(--color-primary),
+            transparent);
     display: grid;
     place-items: center;
 }
@@ -27,7 +25,7 @@
 
 .about__me-image:hover {
     transform: rotate(0);
-   
+
 }
 
 .about__cards {
@@ -72,8 +70,8 @@
 }
 
 /* RESPONSIVE BEHAVIOUR  (for medium devices) */
-@media screen and (max-width: 1024px){
-    .about__container{
+@media screen and (max-width: 1024px) {
+    .about__container {
         grid-template-columns: 1fr;
         gap: 0;
     }
@@ -82,14 +80,15 @@
         margin: 2rem auto 4rem;
         width: 50%;
     }
+
     .about__content p {
         margin: 1rem 0 1.5rem;
     }
 }
 
 /* RESPONSIVE BEHAVIOUR  (for small devices) */
-@media screen and (max-width: 600px){
-    .about__me{
+@media screen and (max-width: 600px) {
+    .about__me {
         width: 65%;
         margin: 0 auto 3rem;
     }
