@@ -11,6 +11,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import ReactProjects from "./ReactProjects";
 
 const data = [
   {
@@ -56,55 +57,58 @@ const data = [
 
 const Portofolio = () => {
   return (
-    <section id="portofolio">
-      <h5>Latest Work Using Vanilla JavaScript</h5>
-      <h2>Recent Projects</h2>
+    <>
+      <section id="portofolio">
+        <h5>Latest Work Using Vanilla JavaScript</h5>
+        <h2>Recent Projects</h2>
 
-      <Swiper
-        className="container portofolio__container"
-        // install Swiper modules
-        modules={[Pagination, Navigation]}
-        spaceBetween={10}
-        slidesPerView={3}
-        navigation
-        pagination={{ clickable: true }}
-        breakpoints={{
-          // when window width is >= 640px
-          1300: {
-            slidesPerView: 3,
-          },
+        <Swiper
+          className="container portofolio__container"
+          // install Swiper modules
+          modules={[Pagination, Navigation]}
+          spaceBetween={10}
+          slidesPerView={3}
+          navigation
+          pagination={{ clickable: true }}
+          breakpoints={{
+            // when window width is >= 640px
+            1300: {
+              slidesPerView: 3,
+            },
 
-          650: {
-            slidesPerView: 2,
-          },
+            650: {
+              slidesPerView: 2,
+            },
 
-          200: {
-            slidesPerView: 1,
-          },
-        }}
-      >
-        {data.map(({ id, image, title, github, demo }, index) => {
-          return (
-            <SwiperSlide key={index} className="portofolio">
-              <article key={id} className="portofolio__item">
-                <div className="portofolio__item-image">
-                  <img src={image} alt={title} />
-                </div>
-                <h3>{title}</h3>
-                <div className="portofolio__item-cta">
-                  <a href={github} className="btn">
-                    Github
-                  </a>
-                  <a href={demo} className="btn btn-primary" target="__blank">
-                    Live Demo
-                  </a>
-                </div>
-              </article>
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
-    </section>
+            200: {
+              slidesPerView: 1,
+            },
+          }}
+        >
+          {data.map(({ id, image, title, github, demo }, index) => {
+            return (
+              <SwiperSlide key={index} className="portofolio">
+                <article key={id} className="portofolio__item">
+                  <div className="portofolio__item-image">
+                    <img src={image} alt={title} />
+                  </div>
+                  <h3>{title}</h3>
+                  <div className="portofolio__item-cta">
+                    <a href={github} className="btn">
+                      Github
+                    </a>
+                    <a href={demo} className="btn btn-primary" target="__blank">
+                      Live Demo
+                    </a>
+                  </div>
+                </article>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      </section>
+      <ReactProjects></ReactProjects>
+    </>
   );
 };
 
