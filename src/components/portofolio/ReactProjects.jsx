@@ -23,7 +23,7 @@ const data = [
     image: AdoptPetSc,
     title: "Pet Adoption Website - practice using React Router",
     github: "https://github.com/nidabaci/adopt-a-pet-project-react-router",
-    demo: "https://sparkly-pegasus-63eebf.netlify.app/",
+    demo: "https://github.com/nidabaci/adopt-a-pet-project-react-router",
   },
 ];
 
