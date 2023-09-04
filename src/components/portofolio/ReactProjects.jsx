@@ -13,7 +13,7 @@ const data = [
   {
     id: 1,
     image: ImgurSc,
-    title: " Imgur Gallery React/Redux/Typescript",
+    title: "Imgur Gallery React/Redux/Typescript",
     github: "https://github.com/nidabaci/Imgur-Gallery-Frontend-Challange",
     demo: "https://calm-genie-c310dd.netlify.app/",
   },
