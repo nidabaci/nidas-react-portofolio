@@ -11,7 +11,7 @@ const Services = () => {
         <article className="service">
           <div className="service__head">
             {/* FIRST SERVICE */}
-            <h3>Design</h3>
+            <h3>UI/UX Design</h3>
           </div>
           <ul className="services__list">
             <li>
@@ -36,18 +36,21 @@ const Services = () => {
           <ul className="services__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Effectively using Visual Code and Visual Studio Code</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
               <p>
-                Comfortable usage of Ionic, Kendo Ui and Prime Faces frameworks
+                Competently using version controls Azure Devops | Bitbucket |
+                Github | Git | Gitlab
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Competently using version controls like Git and Azure Devops
+                Effectively using Visual Code | Visual Code 2022 | Vite | CRA
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Comfortable using styling from CSS | Tailwind | SASS | Bootstrap
               </p>
             </li>
           </ul>

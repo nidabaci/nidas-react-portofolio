@@ -23,7 +23,6 @@ const data = [
     image: AdoptPetSc,
     title: "Pet Adoption Website - practice using React Router",
     github: "https://github.com/nidabaci/adopt-a-pet-project-react-router",
-    demo: "https://github.com/nidabaci/adopt-a-pet-project-react-router",
   },
 ];
 
@@ -68,9 +67,11 @@ const ReactProjects = () => {
                   <a href={github} className="btn">
                     Github
                   </a>
-                  <a href={demo} className="btn btn-primary" target="__blank">
-                    Live Demo
-                  </a>
+                  {demo ? (
+                    <a href={demo} className="btn btn-primary" target="__blank">
+                      Live Demo
+                    </a>
+                  ) : null}
                 </div>
               </article>
             </SwiperSlide>
