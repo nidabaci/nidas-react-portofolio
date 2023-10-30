@@ -97,9 +97,15 @@ const Portofolio = () => {
                     <a href={github} className="btn">
                       Github
                     </a>
-                    <a href={demo} className="btn btn-primary" target="__blank">
-                      Live Demo
-                    </a>
+                    {demo ? (
+                      <a
+                        href={demo}
+                        className="btn btn-primary"
+                        target="__blank"
+                      >
+                        Live Demo
+                      </a>
+                    ) : null}
                   </div>
                 </article>
               </SwiperSlide>
