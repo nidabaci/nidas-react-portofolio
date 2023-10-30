@@ -3,7 +3,6 @@ import "./contact.css";
 import { MdOutlineMail } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
-import { Formik, Form, Field, ErrorMessage } from "formik";
 
 const Contact = () => {
   // const handleSubmit = (values, { setSubmitting, resetForm }) => {
