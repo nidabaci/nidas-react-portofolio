@@ -11,39 +11,54 @@ const About = () => {
       <h2>About Me</h2>
 
       <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
-            <img src={ME} alt="Profile pic" />
+        <div>
+          <br></br>
+          <p>
+            You're probably here for one of two reasons:
+            <br />
+            <strong>1.</strong> You want to know me as a{" "}
+            <strong>Frontend Developer</strong>
+            <br />
+            <strong>2.</strong> You're curious about my{" "}
+            <strong>WordPress work</strong>
+          </p>
+          <br></br>
+          <p>
+            Either way — welcome! Let me tell you a bit about both sides of me.
+          </p>{" "}
+          <br></br>
+          <br></br>
+          <div className="about__me">
+            <div className="about__me-image">
+              <img src={ME} alt="Profile pic" />
+            </div>
           </div>
         </div>
+
         <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <ImUsers className="about__icon" />
-              <h5>Languages</h5>
-              <small>5+</small>
-            </article>
-            <article className="about__card">
-              <BsAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Years</small>
-            </article>
-            <article className="about__card">
-              <AiOutlineFolderOpen className="about__icon" />
-              <h5>Projects</h5>
-              <small>10+</small>
-            </article>
+          <div className="about-me">
+            <h3>Frontend Developer Me</h3>
+            <p>
+              Since 2022, I've been working at an Italian software company as a
+              interface developer using technologies sush as React, Javascript,
+              Next and Vue Js, making cross-browser compatibile websites. Along
+              the way I have used many UI libraries, i can name Ionic, Kendo,
+              Ant Design, Syncfusion, Material UI, Bootstrap and Prime Faces.
+            </p>
+            <h3>WordPress Specialist Me</h3>
+            <p>
+              Outside of work, I freelance as a WordPress developer. I build and
+              maintain sites with Elementor/ Pro, doing SEO audits, integrating
+              advanced features such as WTPS forms and Google Analytics.
+            </p>
+
+            <p>
+              If you're into visuals or want to see what I've done, check out my
+              portfolio down below
+            </p>
           </div>
-          <p>
-            I am a skilled developer with expertise in WordPress, HTML5, CSS3,
-            and making cross-browser compatibile websites. I am proficient in
-            React JS, Ionic, Kendo, and Prime Faces, and have a basic
-            understanding of Next Js, Vue JS, Bootstrap, Python, C#, and Unity.
-            I use Figma to create visually appealing and user-friendly web and
-            mobile application interfaces from scratch.{" "}
-          </p>
           <a href="#contact" className="btn btn-primary">
-            Contact Me
+            Wordpress Portofolio
           </a>
         </div>
       </div>
