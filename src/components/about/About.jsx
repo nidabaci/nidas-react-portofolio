@@ -26,7 +26,7 @@ const About = () => {
             <article className="about__card">
               <BsAward className="about__icon" />
               <h5>Experience</h5>
-              <small>2+ Years</small>
+              <small>3+ Years</small>
             </article>
             <article className="about__card">
               <AiOutlineFolderOpen className="about__icon" />

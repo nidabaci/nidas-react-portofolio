@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/JONIDA_BACI_WEB_DEVELOPER_2023.pdf";
+import CV from "../../assets/JONIDA.BACI_CV_2025.pdf";
 
 function CTA() {
   return (
