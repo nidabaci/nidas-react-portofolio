@@ -1,7 +1,6 @@
 import { useLocation } from "react-router-dom";
 import "./header.css";
 import CTA from "./CTA";
-import ME from "../../assets/profile-pic-no-bg.png";
 import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
@@ -32,9 +31,6 @@ const Header = () => {
 
         <CTA />
         <HeaderSocials />
-        <div className="me">
-          <img src={ME} alt="Profile Pic" />
-        </div>
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
