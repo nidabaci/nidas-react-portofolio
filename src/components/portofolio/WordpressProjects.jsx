@@ -13,32 +13,32 @@ import "swiper/css/pagination";
 
 const data = [
   {
-    id: 1,
+    id: 111,
     image: airplus,
     title: "Airplus: Air Conditioning Solutions E-commerce Site",
     demo: "https://airplus-al.com/",
   },
 
   {
-    id: 2,
+    id: 222,
     image: ascendis,
     title: "AscendisMed.org: Healthcare Website Development",
     demo: "https://ascendismed.org/",
   },
   {
-    id: 3,
+    id: 333,
     image: awa,
     title: "Site Development for Albanian Audiovisual Advocacy Platform",
     demo: "https://albanianwomaninaudiovisual.com/en/home-english/",
   },
   {
-    id: 4,
+    id: 444,
     image: era,
     title: "Film Production Company Website | Home of Oscar-Nominated Movies",
     demo: "https://erafilm-albania.com/",
   },
   {
-    id: 5,
+    id: 555,
     image: north,
     title: "Northlight Roofing Solutions in Canada - Website Development",
     demo: "https://northlightroofing.com/",
