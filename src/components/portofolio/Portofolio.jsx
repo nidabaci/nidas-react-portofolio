@@ -59,8 +59,8 @@ const Portofolio = () => {
   return (
     <>
       <section id="portofolio">
-        <h5>Latest Work Using Vanilla JavaScript</h5>
-        <h2>Recent Projects</h2>
+        <h5>Skill-Building Work</h5>
+        <h2>Vanilla JavaScript Projects</h2>
 
         <Swiper
           className="container portofolio__container"

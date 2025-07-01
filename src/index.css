@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -33,7 +34,7 @@ html {
 }
 
 body {
-  font-family: "Prata", serif;
+  font-family: "Montserrat";
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
@@ -53,10 +54,12 @@ h3,
 h4,
 h5 {
   font-weight: 500;
+  font-family: "Prata", serif;
 }
 
 h1 {
   font-size: 2.8rem;
+  font-family: "Prata", serif;
 }
 
 h2 {
@@ -65,7 +68,6 @@ h2 {
 
 section {
   margin-top: 8rem;
-  /* height: 99vh; */
 }
 
 section > h2,
@@ -77,6 +79,7 @@ section > h5 {
 section > h2 {
   color: var(--color-primary);
   margin-bottom: 3rem;
+  font-family: "Prata", serif;
 }
 
 .text-light {

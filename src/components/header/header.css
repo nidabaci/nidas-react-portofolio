@@ -1,5 +1,4 @@
 header {
-  height: 100vh;
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -26,7 +25,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  bottom: 0rem;
 }
 
 .header__socials::after {
@@ -55,7 +54,7 @@ header {
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  bottom: 5rem;
+  bottom: 2rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;

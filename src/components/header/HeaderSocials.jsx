@@ -11,7 +11,7 @@ function HeaderSocials() {
         rel="noreferrer noopener"
         alt="LinkedIn"
       >
-        <BsLinkedin />
+        <BsGithub />
       </a>
       <a
         href="https://www.linkedin.com/in/jonida-baci99"
@@ -19,7 +19,7 @@ function HeaderSocials() {
         rel="noreferrer noopener"
         alt="LinkedIn"
       >
-        <BsGithub />
+        <BsLinkedin />
       </a>
     </div>
   );

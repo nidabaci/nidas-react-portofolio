@@ -1,9 +1,7 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/profile-pic.jpg";
-import { BsAward } from "react-icons/bs";
-import { ImUsers } from "react-icons/im";
-import { AiOutlineFolderOpen } from "react-icons/ai";
+import { Link } from "react-router-dom";
 const About = () => {
   return (
     <section id="about">
@@ -45,6 +43,10 @@ const About = () => {
               the way I have used many UI libraries, i can name Ionic, Kendo,
               Ant Design, Syncfusion, Material UI, Bootstrap and Prime Faces.
             </p>
+            <p>
+              If you are interested in my work as a Frontend Developer, feel
+              free to scroll down.
+            </p>
             <h3>WordPress Specialist Me</h3>
             <p>
               Outside of work, I freelance as a WordPress developer. I build and
@@ -57,9 +59,9 @@ const About = () => {
               portfolio down below
             </p>
           </div>
-          <a href="#contact" className="btn btn-primary">
+          <Link to="/Wordpress-Portofolio" className="btn btn-primary">
             Wordpress Portofolio
-          </a>
+          </Link>
         </div>
       </div>
     </section>

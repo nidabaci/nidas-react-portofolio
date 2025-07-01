@@ -41,7 +41,7 @@ const Footer = () => {
           rel="noreferrer"
           alt="LinkedIn"
         >
-          <BsLinkedin />
+          <BsGithub />
         </a>
         <a
           href="https://www.linkedin.com/in/jonida-baci99"
@@ -49,7 +49,7 @@ const Footer = () => {
           rel="noreferrer"
           alt="LinkedIn"
         >
-          <BsGithub />
+          <BsLinkedin />
         </a>
       </div>
 
