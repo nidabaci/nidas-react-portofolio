@@ -62,7 +62,7 @@ const WordpressProjects = () => {
         breakpoints={{
           // when window width is >= 640px
           1300: {
-            slidesPerView: 2,
+            slidesPerView: 3,
           },
 
           650: {
