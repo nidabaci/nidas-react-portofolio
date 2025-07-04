@@ -1,4 +1,6 @@
 import "./about.css";
+import UpworkPic from "../../assets/upwork.png";
+
 const AboutWordpress = () => {
   return (
     <section id="about">
@@ -27,17 +29,13 @@ const AboutWordpress = () => {
             deliver cohesive and impactful digital experiences.
           </p>
           <br />
-          <a
-            href="https://www.upwork.com/freelancers/~013e3845f52ccca1e7?mp_source=share"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary"
-          >
-            UpWork Profile
-          </a>
-
+          <p>
+            Whether you're a small business, non-profit, or creative brand, I
+            can help turn your vision into a scalable, fast, and
+            conversion-focused website — without overcomplicating the process.
+          </p>
           <br />
-
+          <br />
           <br />
           <br />
         </div>
@@ -57,11 +55,14 @@ const AboutWordpress = () => {
                 discoverability
               </li>
             </ul>
-            <p>
-              Whether you're a small business, non-profit, or creative brand, I
-              can help turn your vision into a scalable, fast, and
-              conversion-focused website — without overcomplicating the process.
-            </p>
+            <br />
+            <div>
+              <img
+                src={UpworkPic}
+                alt="About Upwork"
+                className="about-upwork-img"
+              />
+            </div>
           </div>
         </div>
       </div>

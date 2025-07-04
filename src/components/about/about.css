@@ -29,27 +29,6 @@
   transform: rotate(0);
 }
 
-/* .about__cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-}
-
-.about__card {
-    background: var(--color-bg-variant);
-    border: 1px solid transparent;
-    padding: 2rem;
-    text-align: center;
-    border-radius: 1rem;
-    transition: var(--transition);
-}
-
-.about__card:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
-} */
-
 .about__icon {
   color: var(--color-primary);
   font-size: 1.4rem;
@@ -68,6 +47,15 @@
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
+}
+
+.about-upwork-img {
+  padding: 3px;
+  background-color: #b48ecd;
+  height: 150px;
+  object-fit: contain;
+  object-position: left;
+  width: auto;
 }
 
 /* RESPONSIVE BEHAVIOUR  (for medium devices) */
@@ -92,6 +80,9 @@
   .about__me {
     width: 65%;
     margin: 0 auto 3rem;
+  }
+  .about-upwork-img {
+    height: 110px;
   }
 
   .about__cards {

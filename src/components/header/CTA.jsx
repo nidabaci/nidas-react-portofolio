@@ -6,9 +6,21 @@ function CTA() {
   const isWordpressPage = location.pathname === "/Wordpress-Portofolio";
   return (
     <div className="cta">
-      <a href={CV} download className="btn">
-        Download CV
-      </a>
+      {isWordpressPage ? (
+        <a
+          href="https://www.upwork.com/freelancers/~013e3845f52ccca1e7?mp_source=share"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn"
+        >
+          UpWork Profile
+        </a>
+      ) : (
+        <a href={CV} download className="btn">
+          Download CV
+        </a>
+      )}
+
       {isWordpressPage ? (
         <Link to="/" className="btn btn-primary">
           Frontend Profile
