@@ -1,7 +1,6 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/profile-pic.jpg";
-import { Link } from "react-router-dom";
 const About = () => {
   return (
     <section id="about">
@@ -10,20 +9,12 @@ const About = () => {
 
       <div className="container about__container">
         <div>
-          <br></br>
           <p>
-            You're probably here for one of two reasons:
-            <br />
-            <strong>1.</strong> You want to know me as a{" "}
-            <strong>Frontend Developer</strong>
-            <br />
-            <strong>2.</strong> You're curious about my{" "}
-            <strong>WordPress work</strong>
+            A proficient front-end developer with experience in building web and
+            mobile applications using React Js/ Native, Vanilla JavaScript, and
+            various other modern technologies. Adept at designing, developing,
+            and maintaining robust applications.
           </p>
-          <br></br>
-          <p>
-            Either way — welcome! Let me tell you a bit about both sides of me.
-          </p>{" "}
           <br></br>
           <br></br>
           <div className="about__me">
@@ -35,33 +26,37 @@ const About = () => {
 
         <div className="about__content">
           <div className="about-me">
-            <h3>Frontend Developer Me</h3>
+            <h3>Commit SRL – Web Developer (Feb 2022 – Present) </h3>
             <p>
-              Since 2022, I've been working at an Italian software company as a
-              interface developer using technologies sush as React, Javascript,
-              Next and Vue Js, making cross-browser compatibile websites. Along
-              the way I have used many UI libraries, i can name Ionic, Kendo,
-              Ant Design, Syncfusion, Material UI, Bootstrap and Prime Faces.
+              At Commit SRL, I design and develop responsive web and mobile
+              applications using <strong>React</strong>, <strong>Vue.js</strong>
+              , <strong>Nuxt.js</strong>, and <strong>Ionic</strong>, focusing
+              on performance, usability, and scalability. I work extensively
+              with modern styling tools like <strong>Tailwind CSS</strong>,{" "}
+              <strong>Sass</strong>, and <strong>pure CSS</strong>, and
+              integrate UI libraries including <strong>Kendo UI</strong>,{" "}
+              <strong>Material UI</strong>, <strong>Ant Design</strong>, and{" "}
+              <strong>PrimeFaces</strong>. My work spans both frontend and
+              backend collaboration through <strong>RESTful APIs</strong>,
+              ensuring seamless integration between systems in Agile
+              environments.
             </p>
+            <h3>Yoox Net-A-Porter Group (ARMANI.COM & MONTBLANC.COM)</h3>
             <p>
-              If you are interested in my work as a Frontend Developer, feel
-              free to scroll down.
-            </p>
-            <h3>WordPress Specialist Me</h3>
-            <p>
-              Outside of work, I freelance as a WordPress developer. I build and
-              maintain sites with Elementor/ Pro, doing SEO audits, integrating
-              advanced features such as WTPS forms and Google Analytics.
-            </p>
-
-            <p>
-              If you're into visuals or want to see what I've done, check out my
-              portfolio down below
+              In collaboration with YNAP, I contributed to key frontend
+              development efforts for <strong>ARMANI.COM</strong> and{" "}
+              <strong>MONTBLANC.COM</strong> using{" "}
+              <strong>Vanilla JavaScript</strong>, ensuring high performance and
+              full cross-browser compatibility. I implemented advanced search
+              features with <strong>Algolia Search AI</strong>, enhanced content
+              workflows through <strong>CoreMedia</strong> integration, and
+              supported backend logic using <strong>ASP.NET</strong> and{" "}
+              <strong>C#</strong>. All work was delivered within Agile
+              workflows, actively participating in <strong>PI Planning</strong>,{" "}
+              <strong>Sprint Planning</strong>, daily stand-ups, and
+              retrospectives.
             </p>
           </div>
-          <Link to="/Wordpress-Portofolio" className="btn btn-primary">
-            Wordpress Portofolio
-          </Link>
         </div>
       </div>
     </section>

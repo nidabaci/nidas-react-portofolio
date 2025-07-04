@@ -15,15 +15,13 @@ const Nav = () => {
   const isWordpressPage = location.pathname === "/Wordpress-Portofolio";
   return (
     <nav>
-      {!isWordpressPage && (
-        <a
-          href="/#"
-          onClick={() => setActiveNav("#")}
-          className={activeNav === "#" ? "active" : ""}
-        >
-          <BiHomeAlt />
-        </a>
-      )}
+      <a
+        href={isWordpressPage ? "#wordpress-header" : "#frontend-Portofolio"}
+        onClick={() => setActiveNav("#")}
+        className={activeNav === "#" ? "active" : ""}
+      >
+        <BiHomeAlt />
+      </a>
 
       <a
         href="#about"

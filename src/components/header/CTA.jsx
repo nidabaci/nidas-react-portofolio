@@ -22,7 +22,7 @@ function CTA() {
       )}
 
       {isWordpressPage ? (
-        <Link to="/" className="btn btn-primary">
+        <Link to="/Frontend-Portofolio" className="btn btn-primary">
           Frontend Profile
         </Link>
       ) : (

@@ -14,7 +14,7 @@ export const App = () => {
       <Nav />
 
       <Routes>
-        <Route path="/" element={<FrontendPage />} />
+        <Route path="/Frontend-Portofolio" element={<FrontendPage />} />
         <Route path="/Wordpress-Portofolio" element={<Wordpress />} />
       </Routes>
 
