@@ -1,5 +1,5 @@
-import React from "react";
-import "./nav.css";
+import { useState } from "react";
+import { useLocation } from "react-router-dom";
 import { BiHomeAlt } from "react-icons/bi";
 import { BiUserPin } from "react-icons/bi";
 import { AiOutlineBook } from "react-icons/ai";
@@ -7,9 +7,8 @@ import { MdDesignServices } from "react-icons/md";
 import { AiFillPhone } from "react-icons/ai";
 import { BsPaperclip } from "react-icons/bs";
 import { MdOutlineStars } from "react-icons/md";
+import "./nav.css";
 
-import { useState } from "react";
-import { useLocation } from "react-router-dom";
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   const location = useLocation();
