@@ -1,6 +1,7 @@
 import React from "react";
 import "./testimonial.css";
 import AVATAR1 from "../../assets/icons8-user-128.png";
+import { FaStar } from "react-icons/fa";
 
 import { Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -53,6 +54,11 @@ const WordpressReview = () => {
                 <img src={avatar} alt={name} />
               </div>
               <h5 className="client__name">{name}</h5>
+              <div className="client__stars">
+                {[...Array(5)].map((_, i) => (
+                  <FaStar key={i} color="#fcd34d" size={18} />
+                ))}
+              </div>
               <small className="client__review">{review}</small>
             </SwiperSlide>
           );
