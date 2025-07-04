@@ -2,33 +2,56 @@ import React from "react";
 import "./footer.css";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
+import { useLocation } from "react-router-dom";
 
 const Footer = () => {
+  const location = useLocation();
+  const isWordpressPage = location.pathname === "/Wordpress-Portofolio";
+
   return (
     <footer>
-      <a href="/#" className="footer__logo">
+      <a
+        href={
+          isWordpressPage ? "/Wordpress-Portofolio" : "/frontend-Portofolio"
+        }
+        className="footer__logo"
+      >
         NIDS
       </a>
 
       <ul className="permalinks">
         <li>
-          <a href="/#">Home</a>
+          <a
+            href={
+              isWordpressPage ? "#wordpress-header" : "#frontend-Portofolio"
+            }
+          >
+            Home
+          </a>
         </li>
+
+        {!isWordpressPage && (
+          <>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#experience">Experience</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+          </>
+        )}
+
         <li>
-          <a href="#about">About</a>
+          <a href="#portofolio">Portfolio</a>
         </li>
+
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#testimonial">Testimonials</a>
         </li>
-        <li>
-          <a href="#services">Services</a>
-        </li>
-        <li>
-          <a href="#portofolio">Portofolio</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
-        </li>
+
         <li>
           <a href="#contact">Contact</a>
         </li>
@@ -39,7 +62,7 @@ const Footer = () => {
           href="https://github.com/nidabaci"
           target="_blank"
           rel="noreferrer"
-          alt="LinkedIn"
+          alt="GitHub"
         >
           <BsGithub />
         </a>

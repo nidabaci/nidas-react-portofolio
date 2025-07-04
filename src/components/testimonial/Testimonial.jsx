@@ -9,6 +9,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import { FaStar } from "react-icons/fa6";
 
 const data = [
   {
@@ -55,6 +56,11 @@ const Testimonial = () => {
                 <img src={avatar} alt={name} />
               </div>
               <h5 className="client__name">{name}</h5>
+              <div className="client__stars">
+                {[...Array(5)].map((_, i) => (
+                  <FaStar key={i} color="#fcd34d" size={18} />
+                ))}
+              </div>
               <small className="client__review">{review}</small>
             </SwiperSlide>
           );
