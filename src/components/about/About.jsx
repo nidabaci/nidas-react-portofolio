@@ -1,4 +1,3 @@
-import React from "react";
 import "./about.css";
 import ME from "../../assets/profile-pic.jpg";
 const About = () => {
@@ -26,7 +25,7 @@ const About = () => {
 
         <div className="about__content">
           <div className="about-me">
-            <h3>Commit SRL – Web Developer (Feb 2022 – Present) </h3>
+            <h3>Commit SRL – Web Developer (Feb 2022 – 2024) </h3>
             <p>
               At Commit SRL, I design and develop responsive web and mobile
               applications using <strong>React</strong>, <strong>Vue.js</strong>
@@ -41,7 +40,7 @@ const About = () => {
               ensuring seamless integration between systems in Agile
               environments.
             </p>
-            <h3>Yoox Net-A-Porter Group (ARMANI.COM & MONTBLANC.COM)</h3>
+            <h3>Dilaxia & Yoox Net-A-Porter Group (Present)</h3>
             <p>
               In collaboration with YNAP, I contributed to key frontend
               development efforts for <strong>ARMANI.COM</strong> and{" "}
