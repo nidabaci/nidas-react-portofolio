@@ -15,22 +15,6 @@ import ReactProjects from "./ReactProjects";
 
 const data = [
   {
-    id: 1,
-    image: IMG1,
-    title: "Bankist App Frontpage",
-    github: "https://github.com/nidabaci/Bank-Website",
-    demo: "https://dazzling-kashata-980f32.netlify.app/",
-  },
-
-  {
-    id: 2,
-    image: IMG2,
-    title: "Bank App User Interface",
-    github: "https://github.com/nidabaci/Users-Bank-Account.git",
-    demo: "https://sparkly-pegasus-63eebf.netlify.app/",
-  },
-
-  {
     id: 3,
     image: IMG3,
     title: "Forkify App - An app for food lovers",
@@ -45,13 +29,28 @@ const data = [
     github: "https://github.com/nidabaci/Dice-Game.git",
     demo: "https://benevolent-pegasus-200258.netlify.app/",
   },
-
   {
     id: 5,
     image: IMG5,
     title: "Guess The Number Game",
     github: "https://github.com/nidabaci/Guess-The-Number-Game",
     demo: "https://adorable-rabanadas-180749.netlify.app/",
+  },
+
+  {
+    id: 1,
+    image: IMG1,
+    title: "Bankist App Frontpage",
+    github: "https://github.com/nidabaci/Bank-Website",
+    demo: "https://dazzling-kashata-980f32.netlify.app/",
+  },
+
+  {
+    id: 2,
+    image: IMG2,
+    title: "Bank App User Interface",
+    github: "https://github.com/nidabaci/Users-Bank-Account.git",
+    demo: "https://sparkly-pegasus-63eebf.netlify.app/",
   },
 ];
 
