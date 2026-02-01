@@ -15,7 +15,7 @@ const Header = () => {
       <div className="container header__container">
         {isWordpressPage ? (
           <>
-            <h5>My profile in</h5>
+            <h5>Jonida Baçi</h5>
             <h1>Wordpress Development & SEO services</h1>
             <h5 className="text-light">
               A collection of websites built with Elementor and SEO in mind.
@@ -23,10 +23,10 @@ const Header = () => {
           </>
         ) : (
           <>
-            <h5>Hello I am</h5>
-            <h1>Jonida Baçi</h1>
+            <h5>Jonida Baçi</h5>
+            <h1>Frontend Developer | React & Javascript</h1>
             <h5 className="text-light">
-              Interface Developer | Proficient in React & Javascript
+              A mirror of my experience and skills in frontend development
             </h5>
           </>
         )}
