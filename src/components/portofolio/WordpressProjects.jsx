@@ -4,6 +4,9 @@ import airplus from "../../assets/airplus.png";
 import awa from "../../assets/awa.png";
 import era from "../../assets/era.png";
 import north from "../../assets/north.png";
+import kreativliftCambodia from "../../assets/kreativliftCambodia.png";
+import kreativliftPhi from "../../assets/kreativliftPhi.png";
+import automood from "../../assets/automood.png";
 
 import { Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -13,32 +16,50 @@ import "swiper/css/pagination";
 
 const data = [
   {
-    id: 111,
+    id: 100,
+    image: ascendis,
+    title: "AscendisMed.org: Healthcare Website Development",
+    demo: "https://ascendismed.org/",
+  },
+  {
+    id: 101,
+    image: kreativliftCambodia,
+    title: "KREATIVLIFT CAMBODIA: Luxury Elevator Solutions Website",
+    demo: "https://homeliftcambodia.com/",
+  },
+  {
+    id: 102,
+    image: automood,
+    title: "Automood: Online Shop for Car Parts in Sicily",
+    demo: "https://www.automood.it/",
+  },
+  {
+    id: 103,
+    image: kreativliftPhi,
+    title: "KREATIVLIFT PHILIPPINES: Luxury Lifts  Website",
+    demo: "https://kreativlift.com.ph/",
+  },
+  {
+    id: 104,
     image: airplus,
     title: "Airplus: Air Conditioning Solutions E-commerce Site",
     demo: "https://airplus-al.com/",
   },
 
   {
-    id: 222,
-    image: ascendis,
-    title: "AscendisMed.org: Healthcare Website Development",
-    demo: "https://ascendismed.org/",
-  },
-  {
-    id: 333,
+    id: 105,
     image: awa,
     title: "Site Development for Albanian Audiovisual Advocacy Platform",
     demo: "https://albanianwomaninaudiovisual.com/en/home-english/",
   },
   {
-    id: 444,
+    id: 106,
     image: era,
     title: "Film Production Company Website | Home of Oscar-Nominated Movies",
     demo: "https://erafilm-albania.com/",
   },
   {
-    id: 555,
+    id: 107,
     image: north,
     title: "Northlight Roofing Solutions in Canada - Website Development",
     demo: "https://northlightroofing.com/",
