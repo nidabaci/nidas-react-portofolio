@@ -2,52 +2,9 @@ import React from "react";
 import "./contact.css";
 import { MdOutlineMail } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
-import { BsWhatsapp } from "react-icons/bs";
+import { FaSquareUpwork } from "react-icons/fa6";
 
 const Contact = () => {
-  // const handleSubmit = (values, { setSubmitting, resetForm }) => {
-  //   fetch("/send-email", {
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //     body: JSON.stringify({
-  //       ...values,
-  //       recipientEmail: "jonida.baci99@outlook.com",
-  //     }),
-  //   })
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       console.log(data);
-  //       resetForm();
-  //       setSubmitting(false);
-  //     })
-  //     .catch((error) => {
-  //       alert("Error:", error);
-  //       setSubmitting(false);
-  //     });
-  // };
-
-  // const validateForm = (values) => {
-  //   const errors = {};
-
-  //   if (!values.name) {
-  //     errors.name = "Name is required";
-  //   }
-
-  //   if (!values.email) {
-  //     errors.email = "Email is required";
-  //   } else if (!/^\S+@\S+\.\S+$/.test(values.email)) {
-  //     errors.email = "Invalid email format";
-  //   }
-
-  //   if (!values.message) {
-  //     errors.message = "Message is required";
-  //   }
-
-  //   return errors;
-  // };
-
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -73,60 +30,16 @@ const Contact = () => {
         </article>
 
         <article className="contact__option">
-          <BsWhatsapp className="contact__option-icon" />
-          <h4>Whatsapp</h4>
+          <FaSquareUpwork className="contact__option-icon" />
+          <h4>Upwork</h4>
           <h5>Let's talk bussiness</h5>
           <a
-            href="https://api.whatsapp.com/send?phone=355694718883"
+            href="https://www.upwork.com/freelancers/~013e3845f52ccca1e7"
             target="__blank"
           >
-            Send a whatsapp Message
+            My Upwork profile
           </a>
         </article>
-
-        {/* <Formik
-          initialValues={{ name: "", email: "", message: "" }}
-          onSubmit={handleSubmit}
-          validate={validateForm}
-        >
-          <Form>
-            <div>
-              <Field
-                type="text"
-                name="name"
-                placeholder="Your Full Name Goes Here"
-                required
-              />
-              <ErrorMessage name="name" component="div" className="error" />
-            </div>
-
-            <div>
-              <Field
-                type="email"
-                name="email"
-                placeholder="Your Email Goes Here"
-                required
-              />
-              <ErrorMessage name="email" component="div" className="error" />
-            </div>
-
-            <div>
-              <Field
-                as="textarea"
-                name="message"
-                cols="30"
-                rows="10"
-                placeholder="Type Your Message Here..."
-                required
-              />
-              <ErrorMessage name="message" component="div" className="error" />
-            </div>
-
-            <button type="submit" className="btn btn-primary">
-              Send Email
-            </button>
-          </Form>
-        </Formik> */}
       </div>
     </section>
   );
